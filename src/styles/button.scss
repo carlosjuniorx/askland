@@ -26,6 +26,9 @@
         opacity: 0.6;    
         cursor: not-allowed;
     }
-
-
+    &.outLined{
+        background: #fff;
+        border: solid 1px  #835afd;
+        color: #835afd;
+    }
 }
