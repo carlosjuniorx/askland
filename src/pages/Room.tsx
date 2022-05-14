@@ -102,8 +102,12 @@ export default function Room() {
               key={question.id}
               content={question.content}
               author={question.author}
+              isAnswered={question.isAnswered}
+              isHighLighted={question.isHighLighted}
+
             >
-              <button
+             {!question.isAnswered &&(
+             <button
                 className={`like-button ${question.likeId ? "liked" : ""}`}
                 type="button"
                 aria-label="like"
@@ -122,10 +126,11 @@ export default function Room() {
                     stroke="#737380"
                     strokeWidth="1.5"
                     strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
+                    strokeLinejoin="round">
+                  </path>
                 </svg>
               </button>
+              )} 
             </Question>
           );
         })}

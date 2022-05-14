@@ -1,0 +1,6 @@
+-Hola Tudo bem, Sou o Carlos Roberto estou finalisando meu curso de Analise e desenvolvimento de sistemas provavelmente agora no final de julho ou agosto.
+
+-Eu sempre gostei de desenvolvimento fiz algumas coisas com react, nextjs, node...
+
+-Estou a 6 meses como estagiário Delphi, atuo em um sistema de monitoramento, que tem a função de  integração de aparelhos de monitoramentos 
+como cameras e dvrs, na empresa usamos o Jira trabalhamos com metodos ágeis e na parte de versionamento o git com bitbucket, minha funcção é desenvolver algumas funcionalidades novas correções de bugs e homologações de novo equipamentos no sistema.
